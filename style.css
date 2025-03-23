@@ -1,0 +1,126 @@
+*{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: "inter", sans-serif;
+}
+
+body{
+    background-color: #e5e5e5;
+   
+}
+
+.box-text{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: text;
+    color: #0a3871;
+    font-size: 34px;
+    font-weight: 450;
+    resize: none;
+}
+
+.box-text::placeholder{
+    color: #0A3871;
+}
+
+.alerta{
+    color: #495057;
+}
+
+
+
+.button-encriptar{
+    border-radius: 25px;
+    background-color: #0A3871 ;
+    font-size: 16px;
+    color: white;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.button-desencriptar{
+    border-radius: 25px;
+    background-color: #D8DFE8 ;
+    font-size: 16px;
+    color: #0A3871;
+    border: 1px solid;
+    border-color: #0A3871;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.seccion2{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px -10px black;
+}
+
+
+.contenido-parrafo h3{
+   
+    text-align: center;
+    color: #343A40;
+
+}
+.contenido-parrafo p{
+ 
+    text-align: center;
+    color: #495057;
+    padding-top: 20px;
+}
+
+
+
+  
+
+.button-copy{
+
+    border-radius: 25px;
+    background-color: white ;
+    font-size: 16px;
+    color: #0A3871;
+    border: 1px solid;
+    border-color: #0A3871;
+    position: absolute;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+
+.texto-resultado{
+    position: absolute;
+    font-size: 25px;
+    width: 340px;
+    height: 750px;
+    top: 18px;
+    left: 25px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-weight: 450;
+    resize: none;
+}
+    
+    .contenido-resultado{
+    position: absolute;
+    top: 0px;
+    empty-cells: inherit;
+    width: 388px;
+    height: 784px;
+      
+    
+}
+
+
+.ocultar{
+    display: none;
+   
+} 
+
+.agregar {
+    display: initial;
+}
